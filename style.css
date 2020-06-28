@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 1.5vw 1.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content {
+    padding: 0 5vw;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-img {
+    width: 20vw;
+}
+
+#about-text {
+    width: 80vw;
+    margin-left: 3vw;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project {
+    width: 30vw;
+    margin: 1vw;
+    background-color: lavender;
+    padding: 1vw;
+    border-radius: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.project-img {
+    width: 100%;
+}
